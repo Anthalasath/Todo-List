@@ -1,0 +1,40 @@
+body {
+    background-image: url("Images/todolist-background.png");
+}
+
+#app {
+    margin-top: 50px;
+}
+
+#app-header {
+    background-color: rgb(37, 141, 201);
+    color: white;
+    font-size: 25px;
+}
+
+.del-task, .task, #add-task {
+    cursor: pointer;
+}
+
+#add-task {
+    margin-left: 150px;
+}
+
+.task, .del-task {
+    background-color: white;
+}
+
+.task {
+    width: 100%;
+    font-size: 20px;
+    color: black;
+}
+
+.del-task{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+}
